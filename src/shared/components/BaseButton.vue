@@ -1,0 +1,1 @@
+<script setup>defineProps({type:{type:String,default:'button'},variant:{type:String,default:'primary'},disabled:Boolean})</script><template><button :type="type" class="base-button" :class="`base-button--${variant}`" :disabled="disabled"><slot /></button></template>

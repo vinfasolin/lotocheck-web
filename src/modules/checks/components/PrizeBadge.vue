@@ -1,0 +1,1 @@
+<script setup>import BaseBadge from '@/shared/components/BaseBadge.vue';defineProps({hasPrize:Boolean})</script><template><BaseBadge :variant="hasPrize?'success':'neutral'">{{ hasPrize?'Possível prêmio':'Sem prêmio' }}</BaseBadge></template>

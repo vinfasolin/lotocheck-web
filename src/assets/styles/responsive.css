@@ -1,0 +1,129 @@
+@media (max-width: 860px) {
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .main-nav,
+  .header-actions {
+    width: 100%;
+    margin-left: 0;
+    overflow-x: auto;
+  }
+
+  .hero-section,
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+
+  .page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .app-footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    width: min(100% - 24px, 1120px);
+    padding: 1.25rem 0 2rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-actions,
+  .quick-actions,
+  .form-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .base-button {
+    width: 100%;
+  }
+
+  .modal-backdrop {
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .modal-panel {
+    width: 100%;
+    max-height: 92vh;
+    border-radius: 24px 24px 0 0;
+  }
+
+  .modal-panel--lg {
+    width: 100%;
+  }
+
+  .modal-header {
+    padding: 1rem;
+  }
+
+  .modal-body {
+    padding: 1rem;
+  }
+
+  .summary-grid {
+    gap: 0.75rem;
+  }
+
+  .compact-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lottery-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.15rem;
+  }
+
+  .lottery-tabs button {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand {
+    font-size: 0.95rem;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .card-number {
+    font-size: 1.7rem;
+  }
+
+  .state-box {
+    padding: 1.25rem;
+  }
+}

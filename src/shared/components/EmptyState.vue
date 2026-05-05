@@ -1,0 +1,1 @@
+<script setup>defineProps({title:{type:String,default:'Nada encontrado'},description:{type:String,default:'Ainda não há informações para exibir.'}})</script><template><div class="state-box"><strong>{{ title }}</strong><p>{{ description }}</p><slot /></div></template>
